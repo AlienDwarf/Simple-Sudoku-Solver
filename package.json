@@ -1,0 +1,13 @@
+{
+  "name": "simple-sudoku-solver",
+  "version": "1.0.0",
+  "description": "Simple tool to solve any solvable sudoku",
+  "main": "main.exe",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dbg": "g++ *.cpp -o main.exe && main.exe dbg",
+    "start": "g++ *.cpp -o main.exe && main.exe"
+  },
+  "author": "Alien Dwarf",
+  "license": "ISC"
+}
